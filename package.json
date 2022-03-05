@@ -1,0 +1,25 @@
+{
+  "name": "decentralized-autonomous-contest",
+  "version": "0.0.1",
+  "description": "designed and created by lpaydat#0001",
+  "main": "./prod/index.js",
+  "repository": "https://github.com/Lpaydat/decentralized-autonomous-contest",
+  "author": "Prathak Paisanwatcharakit",
+  "scripts": {
+    "build": "tsc",
+    "start": "node -r dotenv/config ./prod/index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/rest": "^0.3.0",
+    "discord-api-types": "^0.27.3",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "mongoose": "^6.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "typescript": "^4.6.2"
+  }
+}
